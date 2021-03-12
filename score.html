@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreKeeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="box">
+        <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80"
+            alt="">
+        <h3>
+            Ping Pong Score Keeper
+        </h3>
+
+        <div class="scoreBox">
+            <h1><span id="ply1Score">0</span> to <span id="ply2Score">0</span></h1>
+            <p class="descrip">Use the buttons below to keep score</p>
+            <p class="playTo">
+                <label for="playTo">Playing To</label>
+                <select name="playTo" id="playTo">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+
+            </p>
+
+        </div>
+        <p class="btn">
+            <button id=ply1>+1 Player 0ne</button>
+            <button id=ply2>+1 Player Two</button>
+            <button id=reset>Reset</button>
+        </p>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
